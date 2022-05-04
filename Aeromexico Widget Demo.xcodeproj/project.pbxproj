@@ -7,18 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16D101982821E80200BDEF62 /* Widget_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D101972821E80200BDEF62 /* Widget_DemoApp.swift */; };
 		16D1019A2821E80200BDEF62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D101992821E80200BDEF62 /* ContentView.swift */; };
 		16D1019C2821E80400BDEF62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D1019B2821E80400BDEF62 /* Assets.xcassets */; };
 		16D1019F2821E80400BDEF62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D1019E2821E80400BDEF62 /* Preview Assets.xcassets */; };
+		16D101AC2821E83600BDEF62 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D101AB2821E83600BDEF62 /* WidgetKit.framework */; };
+		16D101AE2821E83600BDEF62 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D101AD2821E83600BDEF62 /* SwiftUI.framework */; };
+		16D101B12821E83600BDEF62 /* AeromexicoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D101B02821E83600BDEF62 /* AeromexicoWidget.swift */; };
+		16D101B32821E83700BDEF62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D101B22821E83700BDEF62 /* Assets.xcassets */; };
+		16D101B72821E83700BDEF62 /* AeromexicoWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 16D101A92821E83600BDEF62 /* AeromexicoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		16D101BE2821FE6800BDEF62 /* Widget_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D101972821E80200BDEF62 /* Widget_DemoApp.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		16D101B52821E83700BDEF62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D1018C2821E80200BDEF62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D101A82821E83600BDEF62;
+			remoteInfo = AeromexicoWidgetExtension;
+		};
+		16D101BF2822008600BDEF62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D1018C2821E80200BDEF62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D101A82821E83600BDEF62;
+			remoteInfo = AeromexicoWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		16D101BB2821E83700BDEF62 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				16D101B72821E83700BDEF62 /* AeromexicoWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		16D101942821E80200BDEF62 /* Widget Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Widget Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D101942821E80200BDEF62 /* Aeromexico Widget Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aeromexico Widget Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D101972821E80200BDEF62 /* Widget_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget_DemoApp.swift; sourceTree = "<group>"; };
 		16D101992821E80200BDEF62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		16D1019B2821E80400BDEF62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16D1019E2821E80400BDEF62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16D101A92821E83600BDEF62 /* AeromexicoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AeromexicoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D101AB2821E83600BDEF62 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		16D101AD2821E83600BDEF62 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		16D101B02821E83600BDEF62 /* AeromexicoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeromexicoWidget.swift; sourceTree = "<group>"; };
+		16D101B22821E83700BDEF62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16D101B42821E83700BDEF62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		16D101A62821E83600BDEF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D101AE2821E83600BDEF62 /* SwiftUI.framework in Frameworks */,
+				16D101AC2821E83600BDEF62 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				16D101962821E80200BDEF62 /* Widget Demo */,
+				16D101AF2821E83600BDEF62 /* AeromexicoWidget */,
+				16D101AA2821E83600BDEF62 /* Frameworks */,
 				16D101952821E80200BDEF62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,7 +96,8 @@
 		16D101952821E80200BDEF62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16D101942821E80200BDEF62 /* Widget Demo.app */,
+				16D101942821E80200BDEF62 /* Aeromexico Widget Demo.app */,
+				16D101A92821E83600BDEF62 /* AeromexicoWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,25 +121,64 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		16D101AA2821E83600BDEF62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16D101AB2821E83600BDEF62 /* WidgetKit.framework */,
+				16D101AD2821E83600BDEF62 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16D101AF2821E83600BDEF62 /* AeromexicoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				16D101B02821E83600BDEF62 /* AeromexicoWidget.swift */,
+				16D101B22821E83700BDEF62 /* Assets.xcassets */,
+				16D101B42821E83700BDEF62 /* Info.plist */,
+			);
+			path = AeromexicoWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16D101932821E80200BDEF62 /* Widget Demo */ = {
+		16D101932821E80200BDEF62 /* Aeromexico Widget Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16D101A22821E80400BDEF62 /* Build configuration list for PBXNativeTarget "Widget Demo" */;
+			buildConfigurationList = 16D101A22821E80400BDEF62 /* Build configuration list for PBXNativeTarget "Aeromexico Widget Demo" */;
 			buildPhases = (
 				16D101902821E80200BDEF62 /* Sources */,
 				16D101912821E80200BDEF62 /* Frameworks */,
 				16D101922821E80200BDEF62 /* Resources */,
+				16D101BB2821E83700BDEF62 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D101B62821E83700BDEF62 /* PBXTargetDependency */,
+				16D101C02822008600BDEF62 /* PBXTargetDependency */,
+			);
+			name = "Aeromexico Widget Demo";
+			productName = "Widget Demo";
+			productReference = 16D101942821E80200BDEF62 /* Aeromexico Widget Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16D101A82821E83600BDEF62 /* AeromexicoWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D101B82821E83700BDEF62 /* Build configuration list for PBXNativeTarget "AeromexicoWidgetExtension" */;
+			buildPhases = (
+				16D101A52821E83600BDEF62 /* Sources */,
+				16D101A62821E83600BDEF62 /* Frameworks */,
+				16D101A72821E83600BDEF62 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Widget Demo";
-			productName = "Widget Demo";
-			productReference = 16D101942821E80200BDEF62 /* Widget Demo.app */;
-			productType = "com.apple.product-type.application";
+			name = AeromexicoWidgetExtension;
+			productName = AeromexicoWidgetExtension;
+			productReference = 16D101A92821E83600BDEF62 /* AeromexicoWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,9 +193,12 @@
 					16D101932821E80200BDEF62 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					16D101A82821E83600BDEF62 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 				};
 			};
-			buildConfigurationList = 16D1018F2821E80200BDEF62 /* Build configuration list for PBXProject "Widget Demo" */;
+			buildConfigurationList = 16D1018F2821E80200BDEF62 /* Build configuration list for PBXProject "Aeromexico Widget Demo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +211,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16D101932821E80200BDEF62 /* Widget Demo */,
+				16D101932821E80200BDEF62 /* Aeromexico Widget Demo */,
+				16D101A82821E83600BDEF62 /* AeromexicoWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +227,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		16D101A72821E83600BDEF62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D101B32821E83700BDEF62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +243,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D1019A2821E80200BDEF62 /* ContentView.swift in Sources */,
-				16D101982821E80200BDEF62 /* Widget_DemoApp.swift in Sources */,
+				16D101BE2821FE6800BDEF62 /* Widget_DemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D101A52821E83600BDEF62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D101B12821E83600BDEF62 /* AeromexicoWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16D101B62821E83700BDEF62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D101A82821E83600BDEF62 /* AeromexicoWidgetExtension */;
+			targetProxy = 16D101B52821E83700BDEF62 /* PBXContainerItemProxy */;
+		};
+		16D101C02822008600BDEF62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D101A82821E83600BDEF62 /* AeromexicoWidgetExtension */;
+			targetProxy = 16D101BF2822008600BDEF62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		16D101A02821E80400BDEF62 /* Debug */ = {
@@ -262,16 +388,20 @@
 		16D101A32821E80400BDEF62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Widget Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -281,25 +411,30 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jero.Widget-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		16D101A42821E80400BDEF62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Widget Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,16 +444,71 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jero.Widget-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		16D101B92821E83700BDEF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AeromexicoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AeromexicoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jero.Widget-Demo.AeromexicoWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		16D101BA2821E83700BDEF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AeromexicoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AeromexicoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jero.Widget-Demo.AeromexicoWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16D1018F2821E80200BDEF62 /* Build configuration list for PBXProject "Widget Demo" */ = {
+		16D1018F2821E80200BDEF62 /* Build configuration list for PBXProject "Aeromexico Widget Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16D101A02821E80400BDEF62 /* Debug */,
@@ -327,11 +517,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16D101A22821E80400BDEF62 /* Build configuration list for PBXNativeTarget "Widget Demo" */ = {
+		16D101A22821E80400BDEF62 /* Build configuration list for PBXNativeTarget "Aeromexico Widget Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16D101A32821E80400BDEF62 /* Debug */,
 				16D101A42821E80400BDEF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D101B82821E83700BDEF62 /* Build configuration list for PBXNativeTarget "AeromexicoWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D101B92821E83700BDEF62 /* Debug */,
+				16D101BA2821E83700BDEF62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
